@@ -15,7 +15,7 @@ header {
 h1 {
   padding-top: 4%;
   padding-left: 5%;
-  color: #890e0e;
+  color: #000000;
   font-size: 40;
   
 }
@@ -63,7 +63,7 @@ fieldset {
 }
 
 button {
-  background-color: peachpuff;
+  background-color: rgb(0, 0, 0);
   border: none;
   color: rgb(0, 0, 0);
   padding: 12px;
