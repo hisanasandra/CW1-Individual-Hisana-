@@ -14,7 +14,7 @@
         <header>
             <h1 v-text="sitename"> </h1>
             <!-- Check out button: disabled when cart is empty and enabled when a lesson is added to cart -->
-            <button v-on:click="showCheckout" class="chkoutButton" v-bind:disabled="emptyCart(classes)">
+            <button v-on:click="showCheckout" class="chkoutButton" v-bind:disabled = "emptyCart(classes)">
                 {{cartItemCount}}
                 <i class="fas fa-shopping-cart"></i> CheckOut
             </button>

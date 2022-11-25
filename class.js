@@ -3,7 +3,7 @@ let classes = [
     id: 1001,
     subject: "Math",
     location: "Qusais",
-    price: 100,
+    price: 150,
     spaces: 5,
     img: "images/math.png",
     dSpace: 5,
