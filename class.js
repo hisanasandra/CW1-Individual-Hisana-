@@ -1,3 +1,4 @@
+// JSON Objects to store data
 let classes = [
   {
     id: 1001,
