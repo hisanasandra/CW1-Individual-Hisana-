@@ -294,7 +294,7 @@
                   //to get results while typing characters into the input
                   if (this.SearchLessons.trim().length > 0) { 
                     //Searching the lesson string to identify lessons that matches to the searched input
-                     return this.classes.filter((classes) => classes.subject.toLowerCase().includes(this.SearchLessons.trim().toLowerCase())) 
+                     return this.classes.filter((classes) => classes.subject.toLowerCase().includes(this.SearchLessons.trim().toLowerCase()) || classes.location.toLowerCase().includes(this.SearchLessons.trim().toLowerCase()))
                     // to display all classes if no results were generated from the search 
                     } else {
                         this.checkBar = false
